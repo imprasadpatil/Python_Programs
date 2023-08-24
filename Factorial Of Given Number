@@ -1,0 +1,30 @@
+Method 1:
+# Python program 1 to find factorial of given number
+def factorial(n):
+     
+    # single line to find factorial
+    return 1 if (n==1 or n==0) else n * factorial(n - 1)
+ 
+# 
+num = 5
+print("Factorial of",num,"is",factorial(num))
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+Method 2:
+# Finding Factorial of number using the builin function - math.factorial()
+import math
+def factorial(a):
+    return(math.factorial(a))
+ 
+num = int(input("Enter Your Number: "))
+print("Factorial of", num, "is",
+      factorial(num))
+
+"""
+Syntax: math.factorial(x)
+
+Parameter:
+x: This is a numeric expression.
+
+Returns:  factorial of desired number.
+"""
