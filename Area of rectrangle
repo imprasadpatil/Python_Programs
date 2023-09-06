@@ -1,0 +1,6 @@
+'Area of rectrangle'
+def Arearec(a, b):
+    return a * b;
+a = float(input("Enter a one side : "))
+b = float(input("Enter second side : "))
+print("Area is %6f" % Arearec(a, b));
