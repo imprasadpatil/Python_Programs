@@ -1,0 +1,7 @@
+'Area of Trangle'
+def Areatra(x, y, z):
+    return (x * y * z)/2;
+x = float(input("Enter a one side : "))
+y = float(input("Enter second side : "))
+z = float(input("Enter a one side : "))
+print("Area of Triangl is %6f" % Areatra(x,y,z));
