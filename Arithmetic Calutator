@@ -1,0 +1,79 @@
+
+class artihmatic_calulator:
+
+    def add(self,num1, num2):
+        return num1 + num2
+
+    def sub(self, num1, num2):
+        return num1 - num2
+
+    def multi(self, num1, num2):
+        return num1 * num2
+
+    def div(self, num1, num2):
+        if num2 !=0:
+            return num1 / num2
+        else:
+            return "cantnot devoid by 0"
+
+cal=artihmatic_calulator()
+#First method                                           
+#Addition
+num1 = float(input("Enter the first number : "))
+num2 = float(input("Enter the second number"))
+sum= cal.add(num1, num2)
+print("value is ",sum)
+
+#Substraction
+num1 = float(input("Enter the first number : "))
+num2 = float(input("Enter the second number"))
+sum= cal.sub(num1, num2)
+print("value is ",sum)
+
+#Multiprication
+num1 = float(input("Enter the first number : "))
+num2 = float(input("Enter the second number"))
+sum= cal.multi(num1, num2)
+print("value is ",sum)
+
+#Division
+num1 = float(input("Enter the first number : "))
+num2 = float(input("Enter the second number"))
+sum= cal.div(num1, num2)
+print("value is ",sum)
+
+
+#Second Method ( Use Multiline camand for Run Program One By ONe )
+while True:
+    print("Choose an operation : ")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
+    print("5. Quit")
+
+    choice = int(input("Enter Your Choice : "))
+
+    if choice == 5:
+        print("Exiting the calculator.")
+        break
+
+    num1 = float(input("Enter the first number : "))
+    num2 = float(input("Enter the second number : "))
+
+    if choice == 1:
+        result = cal.add( num1, num2)
+        operation = "Addition"
+    elif choice == 2:
+        result = cal.sub(num1, num2)
+        operation = "Subtraction"
+    elif choice == 3:
+        result = cal.multi(num1, num2)
+        operation = "Multipication"
+    elif choice == 4:
+        result = cal.div(num1, num2)
+        operation = "Divesion"
+    else:
+        print("Invalid choice.")
+        continue
+    print(f"{operation} result", result)
