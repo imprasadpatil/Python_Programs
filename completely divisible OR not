@@ -1,0 +1,10 @@
+numerator = int(input("Enter the numerator: ")) # User input for NUMWRATOR
+denominator = int(input("Enter the denominator: ")) # User input for DENOMINATOR
+
+if denominator == 0:
+    print("Division by zero is not allowed.") # Zero Not Allowed
+else:
+    if numerator % denominator == 0:
+        print(f"{numerator} is completely divisible by {denominator}.") # if completely divisible
+    else:
+        print(f"{numerator} is not completely divisible by {denominator}.") # else NOT completely divisible
