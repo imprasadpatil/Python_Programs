@@ -1,0 +1,12 @@
+# Input the number for  print the multiplication table
+number = int(input("Enter a number: "))
+
+n = 10 # Limit of the Table
+
+print("Multiplication table for", number)
+for i in range(1, n + 1):
+    result = number * i
+    print(f"{number} x {i} = {result}")
+
+# i is a incriment pointer value
+# result is a runtime variable its diclare in run time
