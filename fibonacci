@@ -1,0 +1,18 @@
+def fibonacci(n):
+    fib_siries = []
+    a, b = 0, 1
+    count = 0
+
+    while count < n:
+        fib_siries.append(a)
+        a, b = b, a+b
+        count += 1
+
+    return fib_siries
+n = int(input("Enter the limite : "))
+if n <= 0:
+    print("Please enter a positive Integer.")
+else:
+    result = fibonacci(n)
+    print("Fibonacci series up to {} terms : " .format(n))
+    print(result)
