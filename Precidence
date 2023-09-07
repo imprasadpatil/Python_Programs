@@ -1,0 +1,35 @@
+
+class precidence:
+    def first(self, x, y):
+        return (x+y)*(x+y)
+
+    def second(self, x, y):
+        return (x+y-(x))+x *(y+y)
+
+    def third(self, x, y):
+        return y+(x*x*x)-(y*y*y)
+
+    def forth(self, x, y):
+        return x+(x*x)%x
+
+prc = precidence()
+
+x = int(input("Enter first value"))
+y = int(input("Enter Second value"))
+sum = prc.first(x, y)
+print("Answer is ",sum)
+
+x = int(input("Enter first value"))
+y = int(input("Enter Second value"))
+sum = prc.second(x ,y)
+print("Answer is ", sum)
+
+x = int(input("Enter first value"))
+y = int(input("Enter Second value"))
+sum = prc.third(x ,y)
+print("Answer is ", sum)
+
+x = int(input("Enter first value"))
+y = int(input("Enter Second value"))
+sum = prc.forth(x ,y)
+print("Answer is ", sum)
