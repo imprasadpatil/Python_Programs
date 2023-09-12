@@ -1,5 +1,0 @@
-'Area of Squre'
-def Areasquare(p):
-    return p*p;
-p = float(input("Enter a one side : "))
-print("Area of Squre is %6f" % Areasquare(p));
