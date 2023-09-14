@@ -1,4 +1,4 @@
-'Area of Trangle'
+'Program to find Area of Trangle'
 def Areatra(x, y, z):
     return (x * y * z)/2;
 x = float(input("Enter a one side : "))
