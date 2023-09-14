@@ -1,4 +1,4 @@
-'Area of rectrangle'
+'Program to find Area of rectangle'
 def Arearec(a, b):
     return a * b;
 a = float(input("Enter a one side : "))
