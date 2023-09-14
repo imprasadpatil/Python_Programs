@@ -1,4 +1,4 @@
-
+'Program to demonstrate Arithmetic Calculator using Function'
 class artihmatic_calulator:
 
     def add(self,num1, num2):
