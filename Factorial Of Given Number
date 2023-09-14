@@ -1,5 +1,6 @@
+'Program to find Factorial of given number'
 Method 1:
-# Python program 1 to find factorial of given number
+# Python program 1 to find the factorial of a given number
 def factorial(n):
      
     # single line to find factorial
@@ -11,7 +12,7 @@ print("Factorial of",num,"is",factorial(num))
 -----------------------------------------------------------------------
 -----------------------------------------------------------------------
 Method 2:
-# Finding Factorial of number using the builin function - math.factorial()
+# Finding a Factorial of a number using the built-in function - math.factorial()
 import math
 def factorial(a):
     return(math.factorial(a))
