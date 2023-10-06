@@ -29,4 +29,3 @@ Python Programming Practical Programs
 
 **Program 14:** []()
 
-**Program 1:** []()
